@@ -1,0 +1,16 @@
+{
+	"ArtScene": "Assets/SceneArt/py_scene/iuv/iuv_Story",
+	"DesScene": "Assets/Demo/test.unity",
+	"PathArtName": "PathArt",
+	"PathDesName": "PathArt",
+	"CutsceneArtName": "PathArt",
+	"CutsceneDesName": "PathArt",
+	"PathReplaceItemName": [
+		 "iuv_Cam04",
+		 "iuv_Cam05"
+	]
+	"CutsceneReplaceItemName": [
+		 "Cutscene_Cam04",
+		 "i_007@mesh_ParentNode"
+	]
+}

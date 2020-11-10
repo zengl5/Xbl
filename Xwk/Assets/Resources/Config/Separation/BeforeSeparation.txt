@@ -1,0 +1,9 @@
+wukong@mesh (5),-1.747,0,-2.52
+wukong@mesh (9),-3.06,0,-4.32
+wukong@mesh (2),-0.76,0,-1.11
+wukong@mesh (3),1.682,0,-2.49
+wukong@mesh (7),1.05,0,-4.32
+wukong@mesh (1),0.68,0,-1.08
+wukong@mesh (6),2.96,0,-4.29
+wukong@mesh (8),-0.8169999,0,-4.32
+wukong@mesh (4),0.02,0,-2.52

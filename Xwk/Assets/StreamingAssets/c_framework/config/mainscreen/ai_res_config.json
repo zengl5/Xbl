@@ -1,0 +1,2717 @@
+{
+
+	"res": [{
+			"id": "res_wait_0000",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+				"anim": "public/anim/wukong/wukong_ty_stand01#anim",
+				"playtype": "play_anim"
+			}]
+		},
+		{
+			"id": "res_00001",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_001",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00002",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_002",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00003",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+				"anim": "public/anim/wukong/wukong_yihuo01#anim",
+				"audio": "main/sound/ai/zndh_wt_003",
+				"playtype": "play_audio_anim"
+			}]
+		},
+		{
+			"id": "res_00004",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_004",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00005",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+				"anim": "public/anim/wukong/wukong_yihuo01#anim",
+				"audio": "main/sound/ai/zndh_wt_005",
+				"playtype": "play_audio_anim"
+			}]
+		},
+		{
+			"id": "res_00006",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_006",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00007",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+				"anim": "public/anim/wukong/wukong_yihuo01#anim",
+				"audio": "main/sound/ai/zndh_wt_007",
+				"playtype": "play_audio_anim"
+			}]
+		},
+		{
+			"id": "res_00008",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_008",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00009",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_009",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00010",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_010",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00011",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_011",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00012",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_012",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00013",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_013",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00014",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_014",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00015",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"audio": "main/sound/ai/zndh_wt_015",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00016",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_wt_016",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00017",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"audio": "main/sound/ai/zndh_wt_017",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00018",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_wt_018",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00019",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_019",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00020",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_020",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00021",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"audio": "main/sound/ai/zndh_wt_021",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00022",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_wt_022",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00023",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"audio": "main/sound/ai/zndh_wt_023",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00024",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_wt_024",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00025",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_025",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00026",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_026",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00027",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"audio": "main/sound/ai/zndh_wt_027",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00028",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_wt_028",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00029",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"audio": "main/sound/ai/zndh_wt_029",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00030",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_wt_030",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00031",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+				"anim": "public/anim/wukong/wukong_yihuo01#anim",
+				"audio": "main/sound/ai/zndh_wt_031",
+				"playtype": "play_audio_anim"
+			}]
+		},
+		{
+			"id": "res_00032",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_032",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00033",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_033",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00034",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_034",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00035",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_035",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00036",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_wt_036",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00109",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_037",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+        "anim": "public/anim/wukong/wukong_tishi03#anim",
+        "playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00110",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_038",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00111",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_039",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00112",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_wt_040",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00113",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_041",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00114",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_wt_042",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00115",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+				"anim": "public/anim/wukong/wukong_yihuo01#anim",
+				"audio": "main/sound/ai/zndh_wt_043",
+				"playtype": "play_audio_anim"
+			}]
+		},
+		{
+			"id": "res_00116",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+				"anim": "public/anim/wukong/wukong_yihuo01#anim",
+				"audio": "main/sound/ai/zndh_wt_044",
+				"playtype": "play_audio_anim"
+			}]
+		},
+		{
+			"id": "res_00117",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+				"anim": "public/anim/wukong/wukong_yihuo01#anim",
+				"audio": "main/sound/ai/zndh_wt_045",
+				"playtype": "play_audio_anim"
+			}]
+		},
+		{
+			"id": "res_00118",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_046",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00119",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_047",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00120",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_048",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00121",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_049",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00122",
+
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_wt_050",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00037",
+			"ui": "main/texture/ui_ai_46",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_001",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00038",
+			"ui": "main/texture/ui_ai_15",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_002",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00039",
+			"ui": "main/texture/ui_ai_27",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_003",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00040",
+			"ui": "main/texture/ui_ai_10",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_004",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00041",
+			"ui": "main/texture/ui_ai_17",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_005",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00042",
+			"ui": "main/texture/ui_ai_22",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_006",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00043",
+			"ui": "main/texture/ui_ai_9",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_007",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00044",
+			"ui": "main/texture/ui_ai_45",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_008",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00045",
+			"ui": "main/texture/ui_ai_38",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_009",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00046",
+			"ui": "main/texture/ui_ai_39",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_010",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00047",
+			"ui": "main/texture/ui_ai_57",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_011",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00048",
+			"ui": "main/texture/ui_ai_58",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_012",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00049",
+			"ui": "main/texture/ui_ai_43",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_013",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00050",
+			"ui": "main/texture/ui_ai_44",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_014",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00051",
+			"ui": "main/texture/ui_ai_47",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_015",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00052",
+			"ui": "main/texture/ui_ai_35",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_016",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00053",
+			"ui": "main/texture/ui_ai_57",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_017",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00054",
+			"ui": "main/texture/ui_ai_5",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_018",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00055",
+			"ui": "main/texture/ui_ai_40",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_019",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00056",
+			"ui": "main/texture/ui_ai_41",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_020",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00057",
+			"ui": "main/texture/ui_ai_42",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_021",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00058",
+			"ui": "main/texture/ui_ai_2",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_022",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00059",
+			"ui": "main/texture/ui_ai_54",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_023",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00060",
+			"ui": "main/texture/ui_ai_56",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_024",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00061",
+			"ui": "main/texture/ui_ai_48",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_025",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00062",
+			"ui": "main/texture/ui_ai_1",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_026",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00063",
+			"ui": "main/texture/ui_ai_37",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_027",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00064",
+			"ui": "main/texture/ui_ai_36",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_028",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00065",
+			"ui": "main/texture/ui_ai_60",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_029",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00066",
+			"ui": "main/texture/ui_ai_55",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_030",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00067",
+			"ui": "main/texture/ui_ai_32",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_031",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00068",
+			"ui": "main/texture/ui_ai_3",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_032",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_daoli01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00069",
+			"ui": "main/texture/ui_ai_14",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_033",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_xz_fangengdou_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00070",
+			"ui": "main/texture/ui_ai_25",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_034",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00071",
+			"ui": "main/texture/ui_ai_21",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_035",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00072",
+			"ui": "main/texture/ui_ai_59",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_036",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00073",
+			"ui": "main/texture/ui_ai_34",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_037",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00074",
+			"ui": "main/texture/ui_ai_24",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_038",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00075",
+			"ui": "main/texture/ui_ai_13",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_039",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00076",
+			"ui": "main/texture/ui_ai_12",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_hd_040",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00077",
+			"ui": "main/texture/ui_ai_2",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_041",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00078",
+			"ui": "main/texture/ui_ai_1",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_042",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00079",
+			"ui": "main/texture/ui_ai_2",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_hd_043",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00080",
+			"ui": "main/texture/ui_ai_33",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_hd_044",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00081",
+			"ui": "main/texture/ui_ai_16",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_045",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00082",
+			"ui": "main/texture/ui_ai_2",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_046",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00083",
+			"ui": "main/texture/ui_ai_1",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_hd_047",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00084",
+			"ui": "main/texture/ui_ai_33",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_hd_048",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00085",
+			"ui": "main/texture/ui_ai_20",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_049",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00086",
+			"ui": "main/texture/ui_ai_4",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_050",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00087",
+			"ui": "main/texture/ui_ai_26",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_051",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00088",
+			"ui": "main/texture/ui_ai_1",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_052",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00089",
+			"ui": "main/texture/ui_ai_11",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_053",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00090",
+			"ui": "main/texture/ui_ai_14",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_054",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00091",
+			"ui": "main/texture/ui_ai_39",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_055",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00092",
+			"ui": "main/texture/ui_ai_42",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_056",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00093",
+			"ui": "main/texture/ui_ai_23",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_057",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00094",
+			"ui": "main/texture/ui_ai_22",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_058",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00095",
+			"ui": "main/texture/ui_ai_4",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_hd_059",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00096",
+			"ui": "main/texture/ui_ai_7",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_hd_060",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00097",
+			"ui": "main/texture/ui_ai_8",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_061",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00098",
+			"ui": "main/texture/ui_ai_6",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+				"anim": "public/anim/wukong/wukong_yihuo01#anim",
+				"audio": "main/sound/ai/zndh_hd_062",
+				"playtype": "play_audio_anim"
+			}]
+		},
+		{
+			"id": "res_00099",
+			"ui": "main/texture/ui_ai_31",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_063",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00100",
+			"ui": "main/texture/ui_ai_29",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_064",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00101",
+			"ui": "main/texture/ui_ai_28",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_065",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00102",
+			"ui": "main/texture/ui_ai_26",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_066",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00103",
+			"ui": "main/texture/ui_ai_30",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_hd_067",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00104",
+			"ui": "main/texture/ui_ai_18",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_hd_068",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00105",
+			"ui": "main/texture/ui_ai_51",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_069",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00106",
+			"ui": "main/texture/ui_ai_53",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_070",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00107",
+			"ui": "main/texture/ui_ai_52",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_hd_071",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00108",
+			"ui": "main/texture/ui_ai_19",
+			"statetype": "stepaudio_palyanim",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_hd_072",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00123",
+			"ui": "main/texture/ui_ai_2",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_073",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00124",
+			"ui": "main/texture/ui_ai_1",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_hd_074",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00125",
+			"ui": "main/texture/ui_ai_61",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "main/sound/ai/zndh_hd_075",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00126",
+			"ui": "main/texture/ui_ai_62",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_076",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00127",
+			"ui": "main/texture/ui_ai_63",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_077",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi01#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00128",
+			"ui": "main/texture/ui_ai_64",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_078",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00129",
+			"ui": "main/texture/ui_ai_65",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+					"audio": "main/sound/ai/zndh_hd_079",
+					"playtype": "play_audio_or_anim_over"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00130",
+			"ui": "main/texture/ui_ai_66",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_080",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00131",
+			"ui": "main/texture/ui_ai_67",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_yaoqing01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_081",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_yaoqing01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00132",
+			"ui": "main/texture/ui_ai_68",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_tishi03#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi02#anim",
+					"audio": "main/sound/ai/zndh_hd_082",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_tishi04#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00133",
+			"ui": "main/texture/ui_ai_69",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_083",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00134",
+			"ui": "main/texture/ui_ai_70",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_084",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00135",
+			"ui": "main/texture/ui_ai_71",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_085",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00136",
+			"ui": "main/texture/ui_ai_72",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_086",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00137",
+			"ui": "main/texture/ui_ai_74",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_087",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00138",
+			"ui": "main/texture/ui_ai_73",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_088",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00139",
+			"ui": "main/texture/ui_ai_75",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_089",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00140",
+			"ui": "main/texture/ui_ai_76",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_090",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00141",
+			"ui": "main/texture/ui_ai_65",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_091",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00142",
+			"ui": "main/texture/ui_ai_78",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_092",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00143",
+			"ui": "main/texture/ui_ai_79",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_093",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00144",
+			"ui": "main/texture/ui_ai_80",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_094",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen02_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00145",
+			"ui": "main/texture/ui_ai_81",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_095",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00146",
+			"ui": "main/texture/ui_ai_62",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_096",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00147",
+			"ui": "main/texture/ui_ai_83",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_097",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00148",
+			"ui": "main/texture/ui_ai_84",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_talk01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_098",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_talk01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00149",
+			"ui": "main/texture/ui_ai_85",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_deyi01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_099",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_deyi01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		},
+		{
+			"id": "res_00150",
+			"ui": "main/texture/ui_ai_86",
+			"statetype": "stepanimaudiostate",
+			"anim": [{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_start#anim",
+
+					"playtype": "play_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_loop#anim",
+					"audio": "main/sound/ai/zndh_hd_100",
+					"playtype": "play_audio_anim"
+				},
+				{
+					"anim": "public/anim/wukong/wukong_ty_xingfen01_end#anim",
+					"audio": "",
+					"playtype": "play_anim"
+				}
+			]
+		}
+	]
+}
