@@ -1,0 +1,148 @@
+{
+	"idlestate": [
+		{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand01#anim",
+			"acname": "main/animationcontroller/cloud/cloudidle",
+			"statetype": "play_anim"
+		}]
+	},{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand01#anim",
+			"acname": "main/animationcontroller/cloud/cloudidle",
+			"statetype": "play_anim"
+		}]
+	},{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand01#anim",
+			"acname": "main/animationcontroller/cloud/cloudidle",
+			"statetype": "play_anim"
+		}]
+	},{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand01#anim",
+			"acname": "main/animationcontroller/cloud/cloudidle",
+			"statetype": "play_anim"
+		}]
+	},{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand01#anim",
+			"acname": "main/animationcontroller/cloud/cloudidle",
+			"statetype": "play_anim"
+		}]
+	},{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand02#anim",
+			"acname": "main/animationcontroller/cloud/cloudidle",
+			"statetype": "play_anim"
+		}]
+	},{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand02#anim",
+			"acname": "main/animationcontroller/cloud/cloudidle",
+			"statetype": "play_anim"
+		}]
+	},{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand02#anim",
+			"acname": "main/animationcontroller/cloud/cloudidle",
+			"statetype": "play_anim"
+		}]
+	},{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand03#anim",
+			"acname": "main/animationcontroller/cloud/cloudidle",
+			"statetype": "play_anim"
+		}]
+	}],
+	"touchstate": [
+		{
+		"statetype": "stepanimstate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand02#anim",
+			"acname": "main/animationcontroller/cloud/cloudtouch",
+			"statetype": "play_anim"
+		},{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand01#anim",
+			"acname": "main/animationcontroller/cloud/cloudtouch",
+			"statetype": "play_anim"
+		}]
+	},{
+		"statetype": "stepanimstate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand03#anim",
+			"acname": "main/animationcontroller/cloud/cloudtouch",
+			"statetype": "play_anim"
+		},{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_stand01#anim",
+			"acname": "main/animationcontroller/cloud/cloudtouch",
+			"statetype": "play_anim"
+		}]
+	}],
+	"walkaroundstate": [
+		{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_run01#anim",
+			"acname": "main/animationcontroller/cloud/cloudtouch",
+			"statetype": "play_anim"
+		}]
+	}],
+	"rainstate": [
+		{
+		"statetype": "onestate",
+		"info": [{
+			"audio": "",
+			"effect": "",
+			"anim": "jdy02_shifa01#anim",
+			"acname": "main/animationcontroller/cloud/cloudrain",
+			"statetype": "play_anim"
+		}]
+	}],
+	"hellostate": [
+		{
+		"statetype": "onestate",
+		"info": [{ 
+			"anim": "jdy02_dazhaohu01#anim",
+			"acname": "main/animationcontroller/cloud/cloudhello",
+			"statetype": "play_anim"
+		}]
+	}]
+}

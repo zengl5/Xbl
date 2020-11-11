@@ -1,0 +1,382 @@
+{
+    "Name": "Sprit",
+    "SpritList": [
+        {
+            "CardName": "icon1",
+            "EffectSoundName": "byjlyx_yx_1",
+            "CardSoundName": "byjlyx_dj_1",
+            "CardRealName": "1钢琴"
+        },
+        {
+            "CardName": "icon2",
+            "EffectSoundName": "byjlyx_yx_2",
+            "CardSoundName": "byjlyx_dj_2",
+            "CardRealName": "2小猪"
+        },
+        {
+            "CardName": "icon3",
+            "EffectSoundName": "byjlyx_yx_3",
+            "CardSoundName": "byjlyx_dj_3",
+            "CardRealName": "3苍蝇"
+        },
+        {
+            "CardName": "icon4",
+            "EffectSoundName": "byjlyx_yx_4",
+            "CardSoundName": "byjlyx_dj_4",
+            "CardRealName": "4狮子"
+        },
+        {
+            "CardName": "icon5",
+            "EffectSoundName": "byjlyx_yx_5",
+            "CardSoundName": "byjlyx_dj_5",
+            "CardRealName": "5大白鹅"
+        },
+        {
+            "CardName": "icon6",
+            "EffectSoundName": "byjlyx_yx_6",
+            "CardSoundName": "byjlyx_dj_6",
+            "CardRealName": "6二胡"
+        },
+        {
+            "CardName": "icon7",
+            "EffectSoundName": "byjlyx_yx_7",
+            "CardSoundName": "byjlyx_dj_7",
+            "CardRealName": "7鸭子"
+        },
+        {
+            "CardName": "icon8",
+            "EffectSoundName": "byjlyx_yx_8",
+            "CardSoundName": "byjlyx_dj_8",
+            "CardRealName": "8小号"
+        },
+        {
+            "CardName": "icon9",
+            "EffectSoundName": "byjlyx_yx_9",
+            "CardSoundName": "byjlyx_dj_9",
+            "CardRealName": "9相机"
+        },
+        {
+            "CardName": "icon10",
+            "EffectSoundName": "byjlyx_yx_10",
+            "CardSoundName": "byjlyx_dj_10",
+            "CardRealName": "10青蛙"
+        },
+        {
+            "CardName": "icon11",
+            "EffectSoundName": "byjlyx_yx_11",
+            "CardSoundName": "byjlyx_dj_11",
+            "CardRealName": "11乌鸦"
+        },
+        {
+            "CardName": "icon12",
+            "EffectSoundName": "byjlyx_yx_12",
+            "CardSoundName": "byjlyx_dj_12",
+            "CardRealName": "12蚊子"
+        },
+        {
+            "CardName": "icon13",
+            "EffectSoundName": "byjlyx_yx_13",
+            "CardSoundName": "byjlyx_dj_13",
+            "CardRealName": "13架子鼓"
+        },
+        {
+            "CardName": "icon14",
+            "EffectSoundName": "byjlyx_yx_14",
+            "CardSoundName": "byjlyx_dj_14",
+            "CardRealName": "14老鼠"
+        },
+        {
+            "CardName": "icon15",
+            "EffectSoundName": "byjlyx_yx_15",
+            "CardSoundName": "byjlyx_dj_15",
+            "CardRealName": "15水流"
+        },
+        {
+            "CardName": "icon16",
+            "EffectSoundName": "byjlyx_yx_16",
+            "CardSoundName": "byjlyx_dj_16",
+            "CardRealName": "16蛐蛐"
+        },
+        {
+            "CardName": "icon17",
+            "EffectSoundName": "byjlyx_yx_17",
+            "CardSoundName": "byjlyx_dj_17",
+            "CardRealName": "17小鸟"
+        },
+        {
+            "CardName": "icon18",
+            "EffectSoundName": "byjlyx_yx_18",
+            "CardSoundName": "byjlyx_dj_18",
+            "CardRealName": "18汽车"
+        },
+        {
+            "CardName": "icon19",
+            "EffectSoundName": "byjlyx_yx_19",
+            "CardSoundName": "byjlyx_dj_19",
+            "CardRealName": "19牛"
+        },
+        {
+            "CardName": "icon20",
+            "EffectSoundName": "byjlyx_yx_20",
+            "CardSoundName": "byjlyx_dj_20",
+            "CardRealName": "20闹钟"
+        },
+        {
+            "CardName": "icon21",
+            "EffectSoundName": "byjlyx_yx_21",
+            "CardSoundName": "byjlyx_dj_21",
+            "CardRealName": "21绵羊"
+        },
+        {
+            "CardName": "icon22",
+            "EffectSoundName": "byjlyx_yx_22",
+            "CardSoundName": "byjlyx_dj_22",
+            "CardRealName": "22小猫"
+        },
+        {
+            "CardName": "icon23",
+            "EffectSoundName": "byjlyx_yx_23",
+            "CardSoundName": "byjlyx_dj_23",
+            "CardRealName": "23马"
+        },
+        {
+            "CardName": "icon24",
+            "EffectSoundName": "byjlyx_yx_24",
+            "CardSoundName": "byjlyx_dj_24",
+            "CardRealName": "24轮船"
+        },
+        {
+            "CardName": "icon25",
+            "EffectSoundName": "byjlyx_yx_25",
+            "CardSoundName": "byjlyx_dj_25",
+            "CardRealName": "25老虎"
+        },
+        {
+            "CardName": "icon26",
+            "EffectSoundName": "byjlyx_yx_26",
+            "CardSoundName": "byjlyx_dj_26",
+            "CardRealName": "26狼"
+        },
+        {
+            "CardName": "icon27",
+            "EffectSoundName": "byjlyx_yx_27",
+            "CardSoundName": "byjlyx_dj_27",
+            "CardRealName": "27老鹰"
+        },
+        {
+            "CardName": "icon28",
+            "EffectSoundName": "byjlyx_yx_28",
+            "CardSoundName": "byjlyx_dj_28",
+            "CardRealName": "28放屁"
+        },
+        {
+            "CardName": "icon29",
+            "EffectSoundName": "byjlyx_yx_29",
+            "CardSoundName": "byjlyx_dj_29",
+            "CardRealName": "29蜜蜂"
+        },
+        {
+            "CardName": "icon30",
+            "EffectSoundName": "byjlyx_yx_30",
+            "CardSoundName": "byjlyx_dj_30",
+            "CardRealName": "30火车"
+        },
+        {
+            "CardName": "icon31",
+            "EffectSoundName": "byjlyx_yx_31",
+            "CardSoundName": "byjlyx_dj_31",
+            "CardRealName": "31吉他"
+        },
+        {
+            "CardName": "icon32",
+            "EffectSoundName": "byjlyx_yx_32",
+            "CardSoundName": "byjlyx_dj_32",
+            "CardRealName": "32小狗"
+        },
+        {
+            "CardName": "icon33",
+            "EffectSoundName": "byjlyx_yx_33",
+            "CardSoundName": "byjlyx_dj_33",
+            "CardRealName": "33公鸡"
+        },
+        {
+            "CardName": "icon34",
+            "EffectSoundName": "byjlyx_yx_34",
+            "CardSoundName": "byjlyx_dj_34",
+            "CardRealName": "34鞭炮"
+        },
+        {
+            "CardName": "icon35",
+            "EffectSoundName": "byjlyx_yx_35",
+            "CardSoundName": "byjlyx_dj_35",
+            "CardRealName": "35摩托车"
+        },
+        {
+            "CardName": "icon36",
+            "EffectSoundName": "byjlyx_yx_36",
+            "CardSoundName": "byjlyx_dj_36",
+            "CardRealName": "36大象"
+        },
+        {
+            "CardName": "icon37",
+            "EffectSoundName": "byjlyx_yx_37",
+            "CardSoundName": "byjlyx_dj_37",
+            "CardRealName": "37救护车"
+        },
+        {
+            "CardName": "icon38",
+            "EffectSoundName": "byjlyx_yx_38",
+            "CardSoundName": "byjlyx_dj_38",
+            "CardRealName": "38警车"
+        },
+        {
+            "CardName": "icon39",
+            "EffectSoundName": "byjlyx_yx_39",
+            "CardSoundName": "byjlyx_dj_39",
+            "CardRealName": "39消防车"
+        },
+        {
+            "CardName": "icon40",
+            "EffectSoundName": "byjlyx_yx_40",
+            "CardSoundName": "byjlyx_dj_40",
+            "CardRealName": "40笛子"
+        }
+		
+		,
+        {
+            "CardName": "icon41",
+            "EffectSoundName": "byjlyx_yx_41",
+            "CardSoundName": "byjlyx_dj_41",
+            "CardRealName": "蝉鸣"
+        }
+		,
+        {
+            "CardName": "icon42",
+            "EffectSoundName": "byjlyx_yx_42",
+            "CardSoundName": "byjlyx_dj_42",
+            "CardRealName": "手枪"
+        }
+		,
+        {
+            "CardName": "icon43",
+            "EffectSoundName": "byjlyx_yx_43",
+            "CardSoundName": "byjlyx_dj_43",
+            "CardRealName": "打雷"
+        }
+		,
+        {
+            "CardName": "icon44",
+            "EffectSoundName": "byjlyx_yx_44",
+            "CardSoundName": "byjlyx_dj_44",
+            "CardRealName": "电话"
+        },
+        {
+            "CardName": "icon45",
+            "EffectSoundName": "byjlyx_yx_45",
+            "CardSoundName": "byjlyx_dj_45",
+            "CardRealName": "高跟鞋"
+        }
+		,
+        {
+            "CardName": "icon46",
+            "EffectSoundName": "byjlyx_yx_46",
+            "CardSoundName": "byjlyx_dj_46",
+            "CardRealName": "高音喇叭"
+        }
+		,
+        {
+            "CardName": "icon47",
+            "EffectSoundName": "byjlyx_yx_47",
+            "CardSoundName": "byjlyx_dj_47",
+            "CardRealName": "键盘打字"
+        }
+		,
+        {
+            "CardName": "icon48",
+            "EffectSoundName": "byjlyx_yx_48",
+            "CardSoundName": "byjlyx_dj_48",
+            "CardRealName": "剪刀"
+        },
+        {
+            "CardName": "icon49",
+            "EffectSoundName": "byjlyx_yx_49",
+            "CardSoundName": "byjlyx_dj_49",
+            "CardRealName": "门铃"
+        }
+		,
+        {
+            "CardName": "icon50",
+            "EffectSoundName": "byjlyx_yx_50",
+            "CardSoundName": "byjlyx_dj_50",
+            "CardRealName": "摩托车"
+        }
+		,
+        {
+            "CardName": "icon51",
+            "EffectSoundName": "byjlyx_yx_51",
+            "CardSoundName": "byjlyx_dj_51",
+            "CardRealName": "敲门"
+        },
+        {
+            "CardName": "icon52",
+            "EffectSoundName": "byjlyx_yx_52",
+            "CardSoundName": "byjlyx_dj_52",
+            "CardRealName": "水滴"
+        }
+		,
+        {
+            "CardName": "icon53",
+            "EffectSoundName": "byjlyx_yx_53",
+            "CardSoundName": "byjlyx_dj_53",
+            "CardRealName": "哨子"
+        }
+		,
+        {
+            "CardName": "icon54",
+            "EffectSoundName": "byjlyx_yx_54",
+            "CardSoundName": "byjlyx_dj_54",
+            "CardRealName": "手鼓"
+        }
+		,
+        {
+            "CardName": "icon55",
+            "EffectSoundName": "byjlyx_yx_55",
+            "CardSoundName": "byjlyx_dj_55",
+            "CardRealName": "水泡泡"
+        },
+        {
+            "CardName": "icon56",
+            "EffectSoundName": "byjlyx_yx_56",
+            "CardSoundName": "byjlyx_dj_56",
+            "CardRealName": "打呼噜"
+        }
+		,
+        {
+            "CardName": "icon57",
+            "EffectSoundName": "byjlyx_yx_57",
+            "CardSoundName": "byjlyx_dj_57",
+            "CardRealName": "敲钟"
+        }
+		,
+        {
+            "CardName": "icon58",
+            "EffectSoundName": "byjlyx_yx_58",
+            "CardSoundName": "byjlyx_dj_58",
+            "CardRealName": "下雨"
+        }
+		,
+        {
+            "CardName": "icon59",
+            "EffectSoundName": "byjlyx_yx_59",
+            "CardSoundName": "byjlyx_dj_59",
+            "CardRealName": "鼓掌"
+        },
+        {
+            "CardName": "icon60",
+            "EffectSoundName": "byjlyx_yx_60",
+            "CardSoundName": "byjlyx_dj_60",
+            "CardRealName": "直升机"
+        }
+		]
+		}
+		

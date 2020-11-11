@@ -1,0 +1,504 @@
+{
+    "fireSprite":[
+        {
+            "name":"baiyin",
+			"realName":"百音精灵",
+            "realMesh":
+			{
+                "position":"0.02,-1.5,7.24",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.04,0.04,0.04",				
+				"movePosition":"3,-2.3,7.4",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath":"public/mesh/jl_00002/public_model_jl00002_1#mesh",
+                "rtmcPath":"game/SpriteWindow/animatorcontroller/sprite/jlreal",
+                "defaultTex": "public/mesh/jl_00002/jl_00002_tx_c_1"
+				
+            },			 
+            "jiatiMesh":
+			{
+                "position":"0.15,-0.4,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.012,0.012,0.012",
+                "meshPath":"public/mesh/jl_00002/public_model_jl00002_2#mesh",
+                "rtmcPath":"game/SpriteWindow/animatorcontroller/sprite/jljiati"
+            },
+            "iconName":
+			{
+                "titleNamePath":"tile/byjl"           
+            },
+			"roleInfo":
+			{
+			   "spNameSound":"xwk_jlej_22",
+			   "spInfoSound":"common_114_1",		
+			   "grayMat":"public/mesh/jl_00002/jl_00002_tx_c_gray",
+			   "normalMat":"public/mesh/jl_00002/jl00002_tx_c_2"
+			}	 
+        },
+        {
+            "name":"bbhulu",
+			"realName":"百变葫芦",
+            "realMesh":{
+                "position":"0.02,-1.5,7.24",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.04,0.04,0.04",
+				"movePosition":"3,-2.3,7.4",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath":"public/mesh/jl_00001/public_model_jl00001_1#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/hulu/finishhulu",
+                "defaultTex": "public/mesh/jl_00001/jl_00001_tx_c_1"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.66,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.012,0.012,0.012",
+				 
+                "meshPath":"public/mesh/jl_00001/public_model_jl00001_2#mesh",
+                "rtmcPath":"game/SpriteWindow/animatorcontroller/hulu/hulujiati"
+            },
+            "iconName":{
+                "titleNamePath":"tile/bbhl"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_26",
+			  "spInfoSound":"common_115_1",	
+              "grayMat":"public/mesh/jl_00001/jl_00001_tx_c_gray",
+			  "normalMat":"public/mesh/jl_00001/jl_00001_tx_c_2"			  
+            }	  	
+		  },
+		  {
+            "name":"jl_xln",
+			"realName":"小龙女",
+            "realMesh":
+			{
+                "position":"0.02,-2.0,7.24",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.035,0.035,0.035",
+				"movePosition":"3.2,-2.3,7",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath":"public/mesh/jl00003/public_model_jl00003_1#mesh",
+                "rtmcPath":"game/SpriteWindow/animatorcontroller/xiaolongnv/xlnreal",
+                "defaultTex": "public/mesh/jl00003/jl00003_tx_c_1"
+
+            },
+            "jiatiMesh":
+			{
+                "position":"0.15,-0.6,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.01,0.01,0.01",
+                "meshPath":"public/mesh/jl00003_02/public_model_jl00003_02#mesh",
+                "rtmcPath":"game/SpriteWindow/animatorcontroller/xiaolongnv/xlnjiati"
+            },
+            "iconName":
+			{
+                "titleNamePath":"tile/xln"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_30",
+			  "spInfoSound":"xzlz_117",
+              "grayMat":"public/mesh/jl00003_02/jl00003_tx_c_gray",
+			  "normalMat":"public/mesh/jl00003_02/jl00003_tx_c_2"						  
+            }	  							
+        },
+		{
+            "name":"jl_lingwa",
+		    "realName":"灵娃",
+            "realMesh":{
+                "position":"0,-1.5,6.2",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.035,0.035,0.035",
+				"movePosition":"3.3,-2.5,6",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath":"public/mesh/jl_00008/public_model_jl_00008#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/lingwa/finishlinghua",
+                "defaultTex": "public/mesh/jl_00008/jl_00008_tx_c"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.36,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.012,0.012,0.012",
+                "meshPath":"public/mesh/jl_00008/public_model_jl_00008#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/lingwa/linghuajiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/lw"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_43",
+			  "spInfoSound":"common_237",
+              "grayMat":"public/mesh/jl_00008/jl_00008_tx_cgray",
+			  "normalMat":"public/mesh/jl_00008/jl_00008_tx_c"						  
+            }	  
+        },
+		{
+            "name":"jl_xcww",
+		    "realName":"仙草娃娃",
+            "realMesh":{
+                "position":"0,-1.5,5.6",
+                "eulerAngles":"0,-50,0",
+                "localScale":"0.036,0.036,0.036",
+				"movePosition":"3.5,-2.6,6",
+				"moveEulerAngles":"0,-60,0",
+                "meshPath":"public/mesh/jl_00009/public_model_jl_00009#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/xcww/finishxcww",
+                "defaultTex": "public/mesh/jl_00009/jl_00009_tx_c"
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.38,-4.5",
+                "eulerAngles":"0,-50,0",
+                "localScale":"0.012,0.012,0.012",
+                "meshPath":"public/mesh/jl_00009/public_model_jl_00009#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/xcww/xcwwjiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/xcww"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_42",
+			  "spInfoSound":"common_236",
+              "grayMat":"public/mesh/jl_00009/jl_00009_tx_gray",
+			  "normalMat":"public/mesh/jl_00009/jl_00009_tx_c"						  
+            }	  
+        },
+		{
+            "name":"jl_hxjl",
+		    "realName":"海宝",
+            "realMesh":{
+                "position":"0.02,-1.5,5.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.035,0.035,0.035",
+				"movePosition":"3,-2.3,6.8",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath":"public/mesh/jl_00013/public_model_jl_00013#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/hxjl/finishhxjl",
+                "defaultTex": "public/mesh/jl_00013/jl_00013_tx_c"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.3,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.012,0.012,0.012",
+                "meshPath":"public/mesh/jl_00013/public_model_jl_00013#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/hxjl/hxjljiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/hb"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_51",
+			  "spInfoSound":"common_245",
+              "grayMat":"public/mesh/jl_00013/jl_00013_tx_gray",
+			  "normalMat":"public/mesh/jl_00013/jl_00013_tx_c"						  
+            }	  
+        },
+		{
+            "name":"jl_dazuishou",
+		    "realName":"大嘴兽",
+            "realMesh":{
+                "position":"0,-1.3,7",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.04,0.04,0.04",
+				"movePosition":"3,-2.3,7",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath": "public/mesh/jl_00004/public_model_jl_00004#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_dazuishou/finish",
+                "defaultTex": "public/mesh/jl_00004/jl_00004_tx_c"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.2,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.014,0.014,0.014",
+                "meshPath": "public/mesh/jl_00004/public_model_jl_00004#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_dazuishou/jiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/dzs"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_45",
+			  "spInfoSound":"common_239",
+                "grayMat": "public/mesh/jl_00004/jl_00004_tx_cgray",
+                "normalMat": "public/mesh/jl_00004/jl_00004_tx_c"
+            }	  
+        },
+		{
+            "name":"jl_menmenmiao",
+		    "realName":"梦梦喵",
+            "realMesh":{
+                "position":"0.02,-1.5,6",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.05,0.05,0.05",
+				"movePosition":"3.6,-2.5,5.5",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath": "public/mesh/jl_00005/public_model_jl_00005#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_menmenmiao/finish",
+                "defaultTex": "public/mesh/jl_00005/jl_00005_tx_c"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.26,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.015,0.015,0.015",
+                "meshPath": "public/mesh/jl_00005/public_model_jl_00005#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_menmenmiao/jiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/mmm"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_46",
+			  "spInfoSound":"common_240",
+                "grayMat": "public/mesh/jl_00005/jl_00005_tx_cgray",
+                "normalMat": "public/mesh/jl_00005/jl_00005_tx_c"
+            }	  
+        },
+		{
+            "name":"jl_jisuanji",
+		    "realName":"计算鸡",
+            "realMesh":{
+                "position":"0,-1.5,7",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.04,0.04,0.04",
+				"movePosition":"3.1,-2.3,7",
+				"moveEulerAngles":"0,-50,0",
+                "meshPath": "public/mesh/jl_00006/public_model_jl_00006#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_jisuanji/finish",
+                "defaultTex": "public/mesh/jl_00006/jl_00006_tx_c"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.45,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.014,0.014,0.014",
+                "meshPath": "public/mesh/jl_00006/public_model_jl_00006#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_jisuanji/jiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/jsj"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_44",
+			  "spInfoSound":"common_238",
+                "grayMat": "public/mesh/jl_00006/jl_00006_tx_cgray",
+                "normalMat": "public/mesh/jl_00006/jl_00006_tx_c"
+            }	  
+        },
+		{
+            "name":"jl_huohuolong",
+		    "realName":"火火龙",
+            "realMesh":{
+                "position":"0.02,-1.5,7.24",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.033,0.033,0.033",
+				"movePosition":"3,-2.3,7",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath": "public/mesh/jl_00007/public_model_jl_00007#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_huohuolong/finish",
+                "defaultTex": "public/mesh/jl_00007/jl_00007_tx_c"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.48,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.012,0.012,0.012",
+                "meshPath": "public/mesh/jl_00007/public_model_jl_00007#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_huohuolong/jiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/hhl"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_47",
+			  "spInfoSound":"common_241",
+                "grayMat": "public/mesh/jl_00007/jl_00007_tx_cgray",
+                "normalMat": "public/mesh/jl_00007/jl_00007_tx_c"
+            }	  
+        },
+		{
+            "name":"jl_xixilang",
+		    "realName":"西西狼",
+            "realMesh":{
+                "position":"0.02,-1.5,7.24",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.04,0.04,0.04",
+				"movePosition":"3,-2.3,7.4",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath": "public/mesh/jl_00010/public_model_jl_00010#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_xixilang/finish",
+                "defaultTex": "public/mesh/jl_00010/jl_00010_tx_c"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.45,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.015,0.015,0.015",
+                "meshPath": "public/mesh/jl_00010/public_model_jl_00010#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_xixilang/jiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/xxl"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_50",
+			  "spInfoSound":"common_244",
+                "grayMat": "public/mesh/jl_00010/jl_00010_tx_cgray",
+                "normalMat": "public/mesh/jl_00010/jl_00010_tx_c"
+            }	  
+        },
+		{
+            "name":"jl_xiuxiuwoniu",
+		    "realName":"咻咻蜗牛",
+            "realMesh":{
+                "position":"0.02,-1.5,7.24",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.03,0.03,0.03",
+			"movePosition":"3.5,-2.4,6",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath": "public/mesh/jl_00011/public_model_jl_00011#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_xiuxiuwoniu/finish",
+                "defaultTex": "public/mesh/jl_00011/jl_00011_tx_c"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.36,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.012,0.012,0.012",
+                "meshPath": "public/mesh/jl_00011/public_model_jl_00011#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_xiuxiuwoniu/jiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/xxwn"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_48",
+			  "spInfoSound":"common_242",
+                "grayMat": "public/mesh/jl_00011/jl_00011_tx_cgray",
+                "normalMat": "public/mesh/jl_00011/jl_00011_tx_c"
+            }	  
+        },
+		{
+            "name":"jl_niuxiaoxian",
+		    "realName":"牛小仙",
+            "realMesh":{
+                "position":"0,-1.6,6",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.036,0.036,0.036",
+				"movePosition":"3.5,-2.6,6",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath": "public/mesh/jl_00012/public_model_jl_00012#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_niuxiaoxian/finish",
+                "defaultTex": "public/mesh/jl_00012/jl_00012_tx_c"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.35,-4.6",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.012,0.012,0.012",
+                "meshPath":"public/mesh/jl_00012/public_model_jl_00012#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_niuxiaoxian/jiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/nxx"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_49",
+			  "spInfoSound":"common_243",
+                "grayMat": "public/mesh/jl_00012/jl_00012_tx_cgray",
+                "normalMat": "public/mesh/jl_00012/jl_00012_tx_c"
+            }	  
+        },
+		{
+            "name":"Not_Recommend_jl_00014",
+		    "realName":"年兽宝宝",
+            "realMesh":{
+                "position":"0,-2,6.6",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.006,0.006,0.006",
+				"movePosition":"3.4,-2.5,6.2",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath": "public/mesh/jl_00014/public_model_jl_00014#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_nsbaobao/finish",
+                "defaultTex": "public/mesh/jl_00014/jl_00014_tx_c_1_l1"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.6,-4.3",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.002,0.002,0.002",
+                "meshPath":"public/mesh/jl_00014/public_model_jl_00014#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_nsbaobao/jiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/nsbb"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_34",
+			  "spInfoSound":"common_234",
+                "grayMat": "public/mesh/jl_00014/jl_00014_tx_c_1_l1gray",
+                "normalMat": "public/mesh/jl_00014/jl_00014_tx_c_1_l1"
+            }	  
+        },
+		{
+            "name":"Not_Recommend_jl_00015",
+		    "realName":"红包精灵",
+            "realMesh":{
+                "position":"0.02,-1.5,7.24",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.035,0.035,0.035",
+				"movePosition":"3,-2.3,7",
+				"moveEulerAngles":"0,-20,0",
+                "meshPath": "public/mesh/jl_00015/public_model_jl_00015#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_hongbao/finish",
+                "defaultTex": "public/mesh/jl_00015/jl_00015_tx_c_1"
+
+            },
+            "jiatiMesh":{
+                "position":"0.15,-0.46,-4.5",
+                "eulerAngles":"0,0,0",
+                "localScale":"0.014,0.014,0.014",
+                "meshPath":"public/mesh/jl_00015/public_model_jl_00015#mesh",
+                "rtmcPath":"game/Piercingeye/animatorcontroller/jl_hongbao/jiati"
+            },
+             "iconName":
+			{
+                "titleNamePath":"tile/hbjl"           
+            },
+			"roleInfo":
+			{
+			  "spNameSound":"xwk_jlej_38",
+			  "spInfoSound":"common_235",
+                "grayMat": "public/mesh/jl_00015/jl_00015_tx_c_1gray",
+                "normalMat": "public/mesh/jl_00015/jl_00015_tx_c_1"
+            }	  
+        }
+		
+    ]
+}
+

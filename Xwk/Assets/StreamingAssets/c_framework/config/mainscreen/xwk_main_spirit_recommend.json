@@ -1,0 +1,242 @@
+{
+	"data": [{
+			"id": 1,
+			"name": "jl_lingwa",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_lw_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_lw",
+			"rolerespath": "public/mesh/jl_00008/public_model_jl_00008#mesh",
+			"localPosition": "(0, -255, -403)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_56",
+					"anim": "public/anim/jl_00008/jl_00008_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00008/jl_00008_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		}, {
+			"id": 2,
+			"name": "jl_xcww",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_xc_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_xc",
+			"rolerespath": "public/mesh/jl_00009/public_model_jl_00009#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,120,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_57",
+					"anim": "public/anim/jl_00009/jl_00009_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00009/jl_00009_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		}, {
+			"id": 3,
+			"name": "jl_hxjl",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_hb_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_hb",
+			"rolerespath": "public/mesh/jl_00013/public_model_jl_00013#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_61",
+					"anim": "public/anim/jl_00013/jl_00013_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00013/jl_00013_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		},{
+			"id": 4,
+			"name": "jl_xixilang",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_xxl_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_xxl",
+			"rolerespath": "public/mesh/jl_00010/public_model_jl_00010#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_58",
+					"anim": "public/anim/jl_00010/jl_00010_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00010/jl_00010_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		},{
+			"id": 5,
+			"name": "jl_huohuolong",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_hhl_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_hhl",
+			"rolerespath": "public/mesh/jl_00007/public_model_jl_00007#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_55",
+					"anim": "public/anim/jl_00007/jl_00007_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00007/jl_00007_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		},{
+			"id": 6,
+			"name": "jl_menmenmiao",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_mmm_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_mmm",
+			"rolerespath": "public/mesh/jl_00005/public_model_jl_00005#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_53",
+					"anim": "public/anim/jl_00005/jl_00005_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00005/jl_00005_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		},{
+			"id": 7,
+			"name": "jl_niuxiaoxian",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_nxx_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_nxx",
+			"rolerespath": "public/mesh/jl_00012/public_model_jl_00012#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_60",
+					"anim": "public/anim/jl_00012/jl_00012_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00012/jl_00012_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		},{
+			"id": 8,
+			"name": "jl_xiuxiuwoniu",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_xxwn_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_xxwn",
+			"rolerespath": "public/mesh/jl_00011/public_model_jl_00011#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_59",
+					"anim": "public/anim/jl_00011/jl_00011_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00011/jl_00011_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		},{
+			"id": 9,
+			"name": "jl_jisuanji",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_jsj_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_jsj",
+			"rolerespath": "public/mesh/jl_00006/public_model_jl_00006#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_54",
+					"anim": "public/anim/jl_00006/jl_00006_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00006/jl_00006_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		},{
+			"id": 10,
+			"name": "jl_dazuishou",
+			"uipath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_dzs_1",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_dzs",
+			"rolerespath": "public/mesh/jl_00004/public_model_jl_00004#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_52",
+					"anim": "public/anim/jl_00004/jl_00004_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00004/jl_00004_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		},
+		{
+			"name": "Not_Recommend_jl_00014",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_ns",
+			"rolerespath": "public/mesh/jl_00014/public_model_jl_00014#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(0.5, 0.5, 0.5)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_34",
+					"anim": "public/anim/jl_00014/jl_00014_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00014/jl_00014_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		},
+		{
+			"name": "Not_Recommend_jl_00015",
+			"wizardiconpath": "c_framework/ui/package_ui_sprite/main_up/btn_home_sx_qp_hbjl",
+			"rolerespath": "public/mesh/jl_00015/public_model_jl_00015#mesh",
+			"localPosition": "(0, -255, -248)",
+			"localScale": "(4, 4, 4)",
+			"localRotation": "(0,180,0)",
+			"resconfig": {
+				"statetype": "stepaudio_palyanim",
+				"animdata": [{
+					"audio": "main/sound/recommendspirit/xwk_jlej_38",
+					"anim": "public/anim/jl_00015/jl_00015_show01#anim",
+					"playtype": "play_audio_or_anim_over"
+				}, {
+					"anim": "public/anim/jl_00015/jl_00015_stand01#anim",
+					"playtype": "play_anim"
+				}]
+			}
+		}
+	]
+}

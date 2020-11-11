@@ -1,0 +1,656 @@
+{
+    "sprite": [
+        {
+            "name": "baiyin",
+            "realName": "百音精灵",
+            "realMesh": {
+                "position": "0,-2.2,0",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.058,0.058,0.058",
+                "meshrealPath": "public/mesh/jl_00002/public_model_jl00002_1#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/sprite/jlreal",
+                "upGradeTex": "public/mesh/jl_00002/upTex/jl_00002_tx_c_1_l",
+                "defaultTex": "public/mesh/jl_00002/jl_00002_tx_c_1"				
+            },
+            "jiatiMesh": {
+                "position": "0,-2.2,0",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.04,0.04,0.04",
+                "meshjtPath": "public/mesh/jl_00002/public_model_jl00002_2#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/sprite/jljiati"
+            },
+            "iconName": {
+                "lockName": "byjl/btn_byjl_4",
+                "lockCenterName": "byjl/btn_byjl_3",
+                "releaseName": "byjl/btn_byjl_2",
+                "releaseCenterName": "byjl/btn_byjl_1",
+                "titleName": "byjl/byjl_title"
+            },
+            "roleLevel": {
+			    "needUpRole":"1",
+				"haveStory":"1",
+                "level1Path": "byjl/btn_jingling_sj_byjl_1",
+                "level2Path": "byjl/btn_jingling_sj_byjl_2",
+                "level3Path": "byjl/btn_jingling_sj_byjl_3",
+                "level4Path": "byjl/btn_jingling_sj_byjl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00002/jl_00002_tx_c_gray",
+                "normalMat": "public/mesh/jl_00002/jl_00002_tx_c_1"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_22"
+			}
+        },
+        {
+            "name": "bbhulu",
+            "realName": "百变葫芦",
+            "realMesh": {
+                "position": "0,-2.2,0",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.058,0.058,0.058",
+                "meshrealPath": "public/mesh/jl_00001/public_model_jl00001_1#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/hulu/hulureal",
+                "upGradeTex": "public/mesh/jl_00001/upTex/jl_00001_tx_c_l",
+                "defaultTex": "public/mesh/jl_00001/jl_00001_tx_c_1"
+            },
+            "jiatiMesh": {
+                "position": "0,-2.3,0",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.045,0.045,0.045",
+                "meshjtPath": "public/mesh/jl_00001/public_model_jl00001_2#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/hulu/hulujiati"
+            },
+            "iconName": {
+                "lockName": "hulu/btn_hl_4",
+                "lockCenterName": "hulu/btn_hl_3",
+                "releaseName": "hulu/btn_hl_2",
+                "releaseCenterName": "hulu/btn_hl_1",
+                "titleName": "hulu/bbhl_title"
+            },
+            "roleLevel": {
+			    "needUpRole":"1",
+								"haveStory":"1",
+
+                "level1Path": "bbhl/btn_jingling_sj_bbhl_1",
+                "level2Path": "bbhl/btn_jingling_sj_bbhl_2",
+                "level3Path": "bbhl/btn_jingling_sj_bbhl_3",
+                "level4Path": "bbhl/btn_jingling_sj_bbhl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00001/jl_00001_tx_c_gray",
+                "normalMat": "public/mesh/jl_00001/jl_00001_tx_c_2"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_26"
+			}
+        },
+        {
+            "name": "jl_xln",
+            "realName": "小龙女",
+            "realMesh": {
+                "position": "0,-2.2,0",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshrealPath": "public/mesh/jl00003/public_model_jl00003_1#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/xiaolongnv/xlnreal",
+                "upGradeTex": "public/mesh/jl00003/upTex/jl00003_tx_c_l",
+                "defaultTex": "public/mesh/jl00003/jl00003_tx_c_1"
+            },
+            "jiatiMesh": {
+                "position": "0.56,-3,-5",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.043,0.043,0.043",
+                "meshjtPath": "public/mesh/jl00003_02/public_model_jl00003_02#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/xiaolongnv/xlnjiati"
+            },
+            "iconName": {
+                "lockName": "xln/btn_xln_4",
+                "lockCenterName": "xln/btn_xln_3",
+                "releaseName": "xln/btn_xln_2",
+                "releaseCenterName": "xln/btn_xln_1",
+                "titleName": "xln/xln_titile"
+            },
+            "roleLevel": {
+				"needUpRole":"1",
+								"haveStory":"1",
+                "level1Path": "xln/btn_jingling_sj_xln_1",
+                "level2Path": "xln/btn_jingling_sj_xln_2",
+                "level3Path": "xln/btn_jingling_sj_xln_3",
+                "level4Path": "xln/btn_jingling_sj_xln_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl00003_02/jl00003_tx_c_gray",
+                "normalMat": "public/mesh/jl00003_02/jl00003_tx_c_2"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_30"
+			}
+        },
+        {
+            "name": "jl_lingwa",
+            "realName": "灵娃",
+            "realMesh": {
+                "position":"0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshrealPath": "public/mesh/jl_00008/public_model_jl_00008#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/lingwa/lingwa",
+                "upGradeTex": "public/mesh/jl_00008/upTex/jl_00008_tx_c_l",
+                "defaultTex": "public/mesh/jl_00008/jl_00008_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshjtPath": "public/mesh/jl_00008/public_model_jl_00008#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/lingwa/lingwa"
+            },
+            "iconName": {
+                "lockName": "lingwa/btn_lw_4",
+                "lockCenterName": "lingwa/btn_lw_3",
+                "releaseName": "lingwa/btn_lw_2",
+                "releaseCenterName": "lingwa/btn_lw_1",
+                "titleName": "lingwa/lw_titile"
+            },
+            "roleLevel": {
+				"needUpRole":"1",
+								"haveStory":"0",
+                "level1Path": "lingwa/btn_jingling_sj_lw_1",
+                "level2Path": "lingwa/btn_jingling_sj_lw_2",
+                "level3Path": "lingwa/btn_jingling_sj_lw_3",
+                "level4Path": "lingwa/btn_jingling_sj_lw_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00008/jl_00008_tx_cgray",
+                "normalMat": "public/mesh/jl_00008/jl_00008_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_43"
+			}
+        },
+        {
+            "name": "jl_xcww",
+            "realName": "仙草娃娃",
+            "realMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,-50,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshrealPath": "public/mesh/jl_00009/public_model_jl_00009#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/xcwawa/xcww",
+                "upGradeTex": "public/mesh/jl_00009/upTex/jl_00009_tx_c_l",
+                "defaultTex": "public/mesh/jl_00009/jl_00009_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,-50,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshjtPath": "public/mesh/jl_00009/public_model_jl_00009#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/xcwawa/xcww"
+            },
+            "iconName": {
+                "lockName": "xiancaoww/btn_xc_4",
+                "lockCenterName": "xiancaoww/btn_xc_3",
+                "releaseName": "xiancaoww/btn_xc_2",
+                "releaseCenterName": "xiancaoww/btn_xc_1",
+                "titleName": "xiancaoww/xcww_title"
+            },
+            "roleLevel": {
+						    "needUpRole":"1",
+								"haveStory":"0",
+
+                "level1Path": "xcww/btn_jingling_sj_xcww_1",
+                "level2Path": "xcww/btn_jingling_sj_xcww_2",
+                "level3Path": "xcww/btn_jingling_sj_xcww_3",
+                "level4Path": "xcww/btn_jingling_sj_xcww_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00009/jl_00009_tx_gray",
+                "normalMat": "public/mesh/jl_00009/jl_00009_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_42"
+			}
+        },
+        {
+            "name": "jl_hxjl",
+            "realName": "海宝",
+            "realMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshrealPath": "public/mesh/jl_00013/public_model_jl_00013#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/hxjl/hxjl",
+                "upGradeTex": "public/mesh/jl_00013/upTex/jl_00013_tx_c_l",
+                "defaultTex": "public/mesh/jl_00013/jl_00013_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshjtPath": "public/mesh/jl_00013/public_model_jl_00013#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/hxjl/hxjl"
+            },
+            "iconName": {
+                "lockName": "hb/btn_hb_4",
+                "lockCenterName": "hb/btn_hb_3",
+                "releaseName": "hb/btn_hb_2",
+                "releaseCenterName": "hb/btn_hb_1",
+                "titleName": "hb/hxjl_titile"
+            },
+            "roleLevel": {
+						    "needUpRole":"1",
+								"haveStory":"0",
+
+                "level1Path": "haibao/btn_jingling_sj_hb_1",
+                "level2Path": "haibao/btn_jingling_sj_hb_2",
+                "level3Path": "haibao/btn_jingling_sj_hb_3",
+                "level4Path": "haibao/btn_jingling_sj_hb_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00013/jl_00013_tx_gray",
+                "normalMat": "public/mesh/jl_00013/jl_00013_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_51"
+			}
+        },
+        {
+            "name": "jl_dazuishou",
+            "realName": "大嘴兽",
+            "realMesh": {
+                "position":"0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.063,0.063,0.063",
+                "meshrealPath": "public/mesh/jl_00004/public_model_jl_00004#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_dazuishou/jl_dazuishou",
+                "upGradeTex": "public/mesh/jl_00004/upTex/jl_00004_tx_c_l",
+                "defaultTex": "public/mesh/jl_00004/jl_00004_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.063,0.063,0.063",
+                "meshjtPath": "public/mesh/jl_00004/public_model_jl_00004#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_dazuishou/jl_dazuishou"
+            },
+            "iconName": {
+                "lockName": "jl_dazuishou/btn_dzs_4",
+                "lockCenterName": "jl_dazuishou/btn_dzs_3",
+                "releaseName": "jl_dazuishou/btn_dzs_2",
+                "releaseCenterName": "jl_dazuishou/btn_dzs_1",
+                "titleName": "jl_dazuishou/dzs_titile"
+            },
+            "roleLevel": {
+						    "needUpRole":"0",
+								"haveStory":"0",
+
+                "level1Path": "byjl/btn_jingling_sj_byjl_1",
+                "level2Path": "byjl/btn_jingling_sj_byjl_2",
+                "level3Path": "byjl/btn_jingling_sj_byjl_3",
+                "level4Path": "byjl/btn_jingling_sj_byjl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00004/jl_00004_tx_cgray",
+                "normalMat": "public/mesh/jl_00004/jl_00004_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_45"
+			}
+        },
+        {
+            "name": "jl_menmenmiao",
+            "realName": "梦梦喵",
+            "realMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.06,0.06,0.06",
+                "meshrealPath": "public/mesh/jl_00005/public_model_jl_00005#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_menmenmiao/jl_menmenmiao",
+                "upGradeTex": "public/mesh/jl_00005/upTex/jl_00005_tx_c_l",
+                "defaultTex": "public/mesh/jl_00005/jl_00005_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.06,0.06,0.06",
+                "meshjtPath": "public/mesh/jl_00005/public_model_jl_00005#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_menmenmiao/jl_menmenmiao"
+            },
+            "iconName": {
+                "lockName": "jl_menmenmiao/btn_mmm_4",
+                "lockCenterName": "jl_menmenmiao/btn_mmm_3",
+                "releaseName": "jl_menmenmiao/btn_mmm_2",
+                "releaseCenterName": "jl_menmenmiao/btn_mmm_1",
+                "titleName": "jl_menmenmiao/mmm_titile"
+            },
+            "roleLevel": {
+						    "needUpRole":"0",
+								"haveStory":"0",
+
+                "level1Path": "byjl/btn_jingling_sj_byjl_1",
+                "level2Path": "byjl/btn_jingling_sj_byjl_2",
+                "level3Path": "byjl/btn_jingling_sj_byjl_3",
+                "level4Path": "byjl/btn_jingling_sj_byjl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00005/jl_00005_tx_cgray",
+                "normalMat": "public/mesh/jl_00005/jl_00005_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_46"
+			}
+        },
+        {
+            "name": "jl_jisuanji",
+            "realName": "计算鸡",
+            "realMesh": {
+                "position": "0,-3.3,-4.3",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.061,0.061,0.061",
+                "meshrealPath": "public/mesh/jl_00006/public_model_jl_00006#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_jisuanji/jl_jisuanji",
+                "upGradeTex": "public/mesh/jl_00006/upTex/jl_00006_tx_c_l",
+                "defaultTex": "public/mesh/jl_00006/jl_00006_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.3",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.061,0.061,0.061",
+                "meshjtPath": "public/mesh/jl_00006/public_model_jl_00006#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_jisuanji/jl_jisuanji"
+            },
+            "iconName": {
+                "lockName": "jl_jisuanji/btn_jsj_4",
+                "lockCenterName": "jl_jisuanji/btn_jsj_3",
+                "releaseName": "jl_jisuanji/btn_jsj_2",
+                "releaseCenterName": "jl_jisuanji/btn_jsj_1",
+                "titleName": "jl_jisuanji/jsj_titile"
+            },
+            "roleLevel": {
+											"haveStory":"0",
+						    "needUpRole":"0",
+                "level1Path": "byjl/btn_jingling_sj_byjl_1",
+                "level2Path": "byjl/btn_jingling_sj_byjl_2",
+                "level3Path": "byjl/btn_jingling_sj_byjl_3",
+                "level4Path": "byjl/btn_jingling_sj_byjl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00006/jl_00006_tx_cgray",
+                "normalMat": "public/mesh/jl_00006/jl_00006_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_44"
+			}
+        },
+        {
+            "name": "jl_huohuolong",
+            "realName": "火火龙",
+            "realMesh": {
+                "position":  "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.062,0.062,0.062",
+                "meshrealPath": "public/mesh/jl_00007/public_model_jl_00007#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_huohuolong/jl_huohuolong",
+                "upGradeTex": "public/mesh/jl_00007/upTex/jl_00007_tx_c_l",
+                "defaultTex": "public/mesh/jl_00007/jl_00007_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.062,0.062,0.062",
+                "meshjtPath": "public/mesh/jl_00007/public_model_jl_00007#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_huohuolong/jl_huohuolong"
+            },
+            "iconName": {
+                "lockName": "jl_huohuolong/btn_hhl_4",
+                "lockCenterName": "jl_huohuolong/btn_hhl_3",
+                "releaseName": "jl_huohuolong/btn_hhl_2",
+                "releaseCenterName": "jl_huohuolong/btn_hhl_1",
+                "titleName": "jl_huohuolong/hhl_titile"
+            },
+            "roleLevel": {
+						    "needUpRole":"1",
+								"haveStory":"0",
+
+                "level1Path": "huohuolong/btn_jingling_sj_hhl_1",
+                "level2Path": "huohuolong/btn_jingling_sj_hhl_2",
+                "level3Path": "huohuolong/btn_jingling_sj_hhl_3",
+                "level4Path": "huohuolong/btn_jingling_sj_hhl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00007/jl_00007_tx_cgray",
+                "normalMat": "public/mesh/jl_00007/jl_00007_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_47"
+			}
+        },
+        {
+            "name": "jl_xixilang",
+            "realName": "西西狼",
+            "realMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.073,0.073,0.073",
+                "meshrealPath": "public/mesh/jl_00010/public_model_jl_00010#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_xixilang/jl_xixilang",
+                "upGradeTex": "public/mesh/jl_00010/upTex/jl_00010_tx_c_l",
+                "defaultTex": "public/mesh/jl_00010/jl_00010_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.073,0.073,0.073",
+                "meshjtPath": "public/mesh/jl_00010/public_model_jl_00010#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_xixilang/jl_xixilang"
+            },
+            "iconName": {
+                "lockName": "jl_xixilang/btn_xxl_4",
+                "lockCenterName": "jl_xixilang/btn_xxl_3",
+                "releaseName": "jl_xixilang/btn_xxl_2",
+                "releaseCenterName": "jl_xixilang/btn_xxl_1",
+                "titleName": "jl_xixilang/xxl_titile"
+            },
+            "roleLevel": {
+									    "needUpRole":"1",
+								"haveStory":"0",
+                "level1Path": "xixilang/btn_jingling_sj_xxl_1",
+                "level2Path": "xixilang/btn_jingling_sj_xxl_2",
+                "level3Path": "xixilang/btn_jingling_sj_xxl_3",
+                "level4Path": "xixilang/btn_jingling_sj_xxl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00010/jl_00010_tx_cgray",
+                "normalMat": "public/mesh/jl_00010/jl_00010_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_50"
+			}
+        },
+        {
+            "name": "jl_xiuxiuwoniu",
+            "realName": "咻咻蜗牛",
+            "realMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshrealPath": "public/mesh/jl_00011/public_model_jl_00011#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_xiuxiuwoniu/jl_xiuxiuwoniu",
+                "upGradeTex": "public/mesh/jl_00011/upTex/jl_00011_tx_c_l",
+                "defaultTex": "public/mesh/jl_00011/jl_00011_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshjtPath": "public/mesh/jl_00011/public_model_jl_00011#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_xiuxiuwoniu/jl_xiuxiuwoniu"
+            },
+            "iconName": {
+                "lockName": "jl_xiuxiuwoniu/btn_xxwn_4",
+                "lockCenterName": "jl_xiuxiuwoniu/btn_xxwn_3",
+                "releaseName": "jl_xiuxiuwoniu/btn_xxwn_2",
+                "releaseCenterName": "jl_xiuxiuwoniu/btn_xxwn_1",
+                "titleName": "jl_xiuxiuwoniu/xxwn_titile"
+            },
+            "roleLevel": {
+									    "needUpRole":"1",
+								"haveStory":"0",
+                "level1Path": "byjl/btn_jingling_sj_byjl_1",
+                "level2Path": "byjl/btn_jingling_sj_byjl_2",
+                "level3Path": "byjl/btn_jingling_sj_byjl_3",
+                "level4Path": "byjl/btn_jingling_sj_byjl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00011/jl_00011_tx_cgray",
+                "normalMat": "public/mesh/jl_00011/jl_00011_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_48"
+			}
+        },
+        {
+            "name": "jl_niuxiaoxian",
+            "realName": "牛小仙",
+            "realMesh": {
+                "position":"0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.055,0.055,0.055",
+                "meshrealPath": "public/mesh/jl_00012/public_model_jl_00012#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_niuxiaoxian/jl_niuxiaoxian",
+                "upGradeTex": "",
+                "defaultTex": "public/mesh/jl_00012/jl_00012_tx_c"
+            },
+            "jiatiMesh": {
+                "position": "0,-3.3,-4.66",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.055,0.055,0.055",
+                "meshjtPath": "public/mesh/jl_00012/public_model_jl_00012#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_niuxiaoxian/jl_niuxiaoxian"
+            },
+            "iconName": {
+                "lockName": "jl_niuxiaoxian/btn_nxx_4",
+                "lockCenterName": "jl_niuxiaoxian/btn_nxx_3",
+                "releaseName": "jl_niuxiaoxian/btn_nxx_2",
+                "releaseCenterName": "jl_niuxiaoxian/btn_nxx_1",
+                "titleName": "jl_niuxiaoxian/nxx_titile"
+            },
+            "roleLevel": {
+									    "needUpRole":"0",
+								"haveStory":"0",
+                "level1Path": "byjl/btn_jingling_sj_byjl_1",
+                "level2Path": "byjl/btn_jingling_sj_byjl_2",
+                "level3Path": "byjl/btn_jingling_sj_byjl_3",
+                "level4Path": "byjl/btn_jingling_sj_byjl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00012/jl_00012_tx_cgray",
+                "normalMat": "public/mesh/jl_00012/jl_00012_tx_c"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_49"
+			}
+        },
+		 {
+            "name": "Not_Recommend_jl_00014",
+            "realName": "年兽宝宝",
+            "realMesh": {
+                "position": "0,-2.2,0",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.008,0.008,0.008",
+                "meshrealPath": "public/mesh/jl_00014/public_model_jl_00014#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_nsbaobao/jl_nsbaobao",
+                "upGradeTex": "public/mesh/jl_00014/upTex/jl_00014_tx_c_1_l",
+                "defaultTex": "public/mesh/jl_00014/jl_00014_tx_c_1_l1"
+            },
+            "jiatiMesh": {
+                "position": "0,-2.2,0",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.008,0.008,0.008",
+                "meshjtPath": "public/mesh/jl_00014/public_model_jl_00014#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_nsbaobao/jl_nsbaobao"
+            },
+            "iconName": {
+                "lockName": "jl_nsbaobao/btn_ns_4",
+                "lockCenterName": "jl_nsbaobao/btn_ns_3",
+                "releaseName": "jl_nsbaobao/btn_ns_2",
+                "releaseCenterName": "jl_nsbaobao/btn_ns_1",
+                "titleName": "jl_nsbaobao/nnbb_titile"
+            },
+            "roleLevel": {
+									    "needUpRole":"1",
+								"haveStory":"0",
+                "level1Path": "jl_nsbaobao/btn_jingling_sj_ns_1",
+                "level2Path": "jl_nsbaobao/btn_jingling_sj_ns_2",
+                "level3Path": "jl_nsbaobao/btn_jingling_sj_ns_3",
+                "level4Path": "jl_nsbaobao/btn_jingling_sj_ns_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00014/jl_00014_tx_c_1_l1gray",
+                "normalMat": "public/mesh/jl_00014/jl_00014_tx_c_1_l1"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_34"
+			}
+			},
+        
+		 {
+            "name": "Not_Recommend_jl_00015",
+            "realName": "红包精灵",
+            "realMesh": {
+                "position": "0,-2.2,0",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshrealPath": "public/mesh/jl_00015/public_model_jl_00015#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_hongbao/jl_hongbao",
+                "upGradeTex": "public/mesh/jl_00015/upTex/jl_00015_tx_c_1_l",
+                "defaultTex": "public/mesh/jl_00015/jl_00015_tx_c_1"
+            },
+            "jiatiMesh": {
+                "position": "0,-2.2,0",
+                "eulerAngles": "0,0,0",
+                "localScale": "0.05,0.05,0.05",
+                "meshjtPath": "public/mesh/jl_00015/public_model_jl_00015#mesh",
+                "rtmcPath": "game/SpriteWindow/animatorcontroller/jl_hongbao/jl_hongbao"
+            },
+            "iconName": {
+                "lockName": "jl_hongbao/btn_hb_4",
+                "lockCenterName": "jl_hongbao/btn_hb_3",
+                "releaseName": "jl_hongbao/btn_hb_2",
+                "releaseCenterName": "jl_hongbao/btn_hb_1",
+                "titleName": "jl_hongbao/hbjl_titile"
+            },
+            "roleLevel": {
+				"needUpRole":"1",
+				"haveStory":"0",
+                "level1Path": "jl_hongbao/btn_jingling_sj_hbjl_1",
+                "level2Path": "jl_hongbao/btn_jingling_sj_hbjl_2",
+                "level3Path": "jl_hongbao/btn_jingling_sj_hbjl_3",
+                "level4Path": "jl_hongbao/btn_jingling_sj_hbjl_4"
+            },
+            "mat": {
+                "grayMat": "public/mesh/jl_00015/jl_00015_tx_c_1gray",
+                "normalMat": "public/mesh/jl_00015/jl_00015_tx_c_1"
+            },
+			"soundInfo":
+			{
+			   "roleInfo": "xwk_jlej_38"
+			}
+        }
+    ]
+}

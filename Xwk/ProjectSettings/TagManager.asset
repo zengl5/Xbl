@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Actor
+  - SceneTag
+  - Scene
+  - Effect
+  - CutScene
+  - CutscenePath
+  - XWK_Head
+  - XWK_Body
+  - XWK_Tail
+  - XWK_Camera
+  - ActorCamera
+  - Jingling
+  - daoju
+  - meshButton
+  - MainCloud
+  - meshButton_Begin
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - SpUI
+  - Effect
+  - DingDongGu
+  - AChuchang
+  - Bg
+  - TuJianLayer
+  - TuJianLayerUI
+  - ASR_BG
+  - ASR_FrontGameObject
+  - ShadowCaster
+  - ColliderLayer
+  - GoldCanvas
+  - SpeechUI
+  - EffectUI
+  - CardCanvas
+  - LockUI
+  - Scene
+  - DirectorCanvas
+  - lette_light
+  - Jingling
+  - Player
+  - RewardUI
+  - hdtw
+  - FazhenUI
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: RewardUI
+    uniqueID: 2579215843
+    locked: 0

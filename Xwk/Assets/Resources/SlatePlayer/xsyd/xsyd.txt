@@ -1,0 +1,8 @@
+xsyd_cam01,
+xsyd_cam02,
+xsyd_cam10,
+xsyd_cam11,
+xsyd_cam12,
+xsyd_cam13,
+xsyd_cam14,
+xsyd_cam15_game,
