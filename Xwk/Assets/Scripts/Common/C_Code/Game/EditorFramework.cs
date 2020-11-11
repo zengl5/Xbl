@@ -22,13 +22,10 @@ public class EditorFramework : C_GameFramework
     {
         base.StartPrepareSystem();
 
-        C_Singleton<GameConfigMgr>.CreateInstance();
 
         C_Singleton<GameDataMgr>.CreateInstance();
 
-        C_MonoSingleton<GameHelper>.GetInstance();
 
-        C_MonoSingleton<GameLogic>.GetInstance();
     }
 
     void Start()
@@ -56,16 +53,8 @@ public class EditorFramework : C_GameFramework
 
         //C_MonoSingleton<C_AudioMgr>.GetInstance().SetMusicAudioVolume(0.2f);
         
-        InitGameStateCtrl();
 
-        C_MonoSingleton<GameLaunchMgr>.GetInstance();
     }
 
-    private void InitGameStateCtrl()
-    {
-        C_Singleton<C_GameStateCtrl>.GetInstance().RegisterState("PlayState", new PlayState());
-        C_Singleton<C_GameStateCtrl>.GetInstance().RegisterState("ShowJKBState", new HeadlineShowJKBState());
-        C_Singleton<C_GameStateCtrl>.GetInstance().RegisterState("MainCityState", new MainCityState());
-        C_Singleton<C_GameStateCtrl>.GetInstance().RegisterState("LoginState", new LoginState());
-    }
+   
 }

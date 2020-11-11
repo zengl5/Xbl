@@ -191,12 +191,10 @@ public class MicPhoneSinglton : C_MonoSingleton<MicPhoneSinglton> {
     {
         if (reward)
         {
-            XWK.Common.UI_Reward.RewardUIManager.Instance.PauseCountDown();
         }
         SpeechRecognizeSystemEvent.Instance.AddGetRecordStatusEvent((b) => {
             if (reward)
             {
-                XWK.Common.UI_Reward.RewardUIManager.Instance.ResumeCountDown();
             }
 
             if (b)
@@ -207,7 +205,6 @@ public class MicPhoneSinglton : C_MonoSingleton<MicPhoneSinglton> {
                 StartCoroutine(GetVoumleResult(callback));
             }
         });
-        GameHelper.Instance.SendRecordStatus();
 
     }
     IEnumerator GetVoumleResult(System.Action<bool> callback)
@@ -246,12 +243,9 @@ public class MicPhoneSinglton : C_MonoSingleton<MicPhoneSinglton> {
         //        playOver();
         //    }
         //});
-        XWK.Common.UI_Reward.RewardUIManager.Instance.PauseCountDown();
 
         //允许静音下播放声音
-        C_MonoSingleton<GameHelper>.GetInstance().SetMuteModePlay();
         SpeechRecognizeSystemEvent.Instance.AddGetRecordStatusEvent((b)=> {
-            XWK.Common.UI_Reward.RewardUIManager.Instance.ResumeCountDown();
             if (b)
             {
                 SpeechRecognizeSystemEvent.Instance.RemoveGetRecordStatusEvent();
@@ -268,7 +262,6 @@ public class MicPhoneSinglton : C_MonoSingleton<MicPhoneSinglton> {
                 }
             }
         });
-        GameHelper.Instance.SendRecordStatus();
 
     }
     //private IEnumerator GetRecordVolume(float pitch,System.Action<bool,float> callback, System.Action playOver =null)

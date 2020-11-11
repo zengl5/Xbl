@@ -6,8 +6,8 @@ using UnityEngine.Events;
 using System.Text;
 using Assets.Scripts.C_Framework;
 using QFramework;
-using XWK.Common.UI_Reward;
-using YB.XWK.MainScene;
+
+
 using System.Collections;
 
 #if UNITY_EDITOR
@@ -63,16 +63,13 @@ namespace Slate
         void Start(){
             _JumpFlag = false;
 
-            YB.XWK.MainScene.LocalData.m_story_moudle = _CurrentMoudle = getCurrentMoudleName();
 
-            WizardData.SetWizardItemStar(LocalData.m_SpiritType, 1);
 
             //埋点
             if (!string.IsNullOrEmpty(_CurrentMoudle))
             {
-                RewardUIManager.GetInstance().ChangeModule(ModuleType.Story, string.Concat(_CurrentMoudle, "_moudle_reward"));
 
-                C_MonoSingleton<GameHelper>.GetInstance().SendDataStatistics(EnumDataStatistics.TimeStart, "story_time", _CurrentMoudle);
+
             }
             DoStart();
         }
@@ -135,7 +132,6 @@ namespace Slate
         protected virtual void OpenStoryUI()
         {
             //暂停按钮
-            C_MonoSingleton<PauseUIMoudleMgr>.GetInstance().OpenStoryUI();
         }
         public void Update()
         {
@@ -206,8 +202,7 @@ namespace Slate
         {
             _JumpFlag = true;
 
-            WizardData.SetWizardItemStar(LocalData.m_SpiritType,1);
-            PauseUIMoudleMgr.Instance.QuitStory();
+
             StopCurrentCutscene();
             GameObject cutscenes = GameObject.FindGameObjectWithTag("CutScene");
             
@@ -671,10 +666,7 @@ namespace Slate
              
        protected virtual void DoClick()
         {
-            if (!string.IsNullOrEmpty(YB.XWK.MainScene.LocalData.m_story_moudle))
-            {
-                C_MonoSingleton<GameHelper>.GetInstance().SendDataStatistics(EnumDataStatistics.Chick, YB.XWK.MainScene.LocalData.m_story_moudle, cutscenes[currentIndex].name);
-            }
+         
         }
 	    protected virtual	void MoveNext(){
             if (_JumpFlag)//中途退出
@@ -685,9 +677,6 @@ namespace Slate
             }
             if (!string.IsNullOrEmpty(_CurrentMoudle)&& cutscenes != null && cutscenes.Count == 1 )
             {
-                WizardData.SetWizardItemStar(LocalData.m_SpiritType, 3);
-                C_MonoSingleton<GameHelper>.GetInstance().SendDataStatistics(EnumDataStatistics.TimeEnd, "story_time", _CurrentMoudle);
-                PauseUIMoudleMgr.Instance.QuitStory();
             }
             if (!isPlaying || currentIndex >= cutscenes.Count)
             {
@@ -708,7 +697,6 @@ namespace Slate
             }
             if (!string.IsNullOrEmpty(_CurrentMoudle))
             {
-                C_MonoSingleton<GameHelper>.GetInstance().SendDataStatistics(EnumDataStatistics.Chick, _CurrentMoudle, cutscene.name);
             }
             cutscene.gameObject.SetActive(true);
             cutscene.isActive = false;

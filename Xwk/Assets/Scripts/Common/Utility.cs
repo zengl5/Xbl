@@ -501,18 +501,7 @@ using UnityEngine.SceneManagement;
                 C_DebugHelper.Log("获取当前图片base64长度为---" + base64String.Length);
                 C_DebugHelper.Log("获取base64String---" + base64String);
 
-                if (saveType == 1)
-                {
-                    GameHelper.Instance.AddToDCIM(ref base64String);
-                }else if(saveType == 2)
-                {
-                    GameHelper.Instance.ShareImgBase64Wechat(base64String,1);//朋友圈
-                }
-                else
-                {
-                    GameHelper.Instance.ShareImgBase64Wechat(base64String, 0);//好友
-                }
-             
+        
             }
             catch (System.Exception e)
             {

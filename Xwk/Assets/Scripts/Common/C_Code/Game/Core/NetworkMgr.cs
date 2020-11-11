@@ -161,12 +161,10 @@ public class NetworkMgr : C_Singleton<NetworkMgr>
     }
     public void PokeRequestHttp(WWWForm form, string url,Action<string> callback, float timeout = 2.0f)
     {
-        form.AddField("uid", PlayerData.UID);
         form.AddField("app", APP_CONST.PinYin);
         form.AddField("device", GameDataMgr.c_DeviceType);
         form.AddField("deviceid", GameDataMgr.c_DeviceUID);
         form.AddField("udid", GameDataMgr.c_UDID);
-        form.AddField("uid", PlayerData.UID);
         form.AddField("ver", GameConfig.AppVersion);
 
         C_DebugHelper.Log("NetworkMgr SendHttpPost url = " + url + ", data = " + Encoding.UTF8.GetString(form.data));
@@ -182,12 +180,10 @@ public class NetworkMgr : C_Singleton<NetworkMgr>
             foreach (KeyValuePair<string, string> kv in data)
                 form.AddField(kv.Key, kv.Value);
         }
-        form.AddField("uid", PlayerData.UID);
         form.AddField("app", APP_CONST.PinYin);
         form.AddField("device", GameDataMgr.c_DeviceType);
         form.AddField("deviceid", GameDataMgr.c_DeviceUID);
         form.AddField("udid", GameDataMgr.c_UDID);
-        form.AddField("uid", PlayerData.UID);
         form.AddField("ver", GameConfig.AppVersion);
 
         C_DebugHelper.Log("NetworkMgr SendHttpPost url = " + url + ", data = " + Encoding.UTF8.GetString(form.data));
@@ -203,7 +199,6 @@ public class NetworkMgr : C_Singleton<NetworkMgr>
                 form.AddField(kv.Key, kv.Value);
         }
 
-        form.AddField("uid", PlayerData.UID);
         form.AddField("app", APP_CONST.PinYin);
         form.AddField("device", GameDataMgr.c_DeviceType);
         form.AddField("deviceid", GameDataMgr.c_DeviceUID);

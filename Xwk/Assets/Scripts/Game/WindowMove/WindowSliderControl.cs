@@ -64,13 +64,7 @@ public class WindowSliderControl : MonoSingleton<WindowSliderControl>
     int UpdateIndex;
     WindowSliderRotate wdRotate;
     WindowSliderBoundary wdBundary;
-    public void InitCharacter(YB.XWK.MainScene.IActor actor, Camera camera)
-    {
-        frozen = false;
-        _Camera = camera;
-        wdRotate = new WindowSliderRotate(camera);
-        wdBundary = new WindowSliderBoundary(_Camera);
-    }
+  
     public void InitCharacter(Transform actor, Camera camera)
     {
         frozen = false;

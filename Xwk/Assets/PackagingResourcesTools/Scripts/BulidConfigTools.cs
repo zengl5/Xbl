@@ -48,7 +48,6 @@ public class BulidConfigTools : MonoBehaviour
 {
     public void BulidGameConfig()
     {
-        GameConfig.SaveStreamingAssets();
 
         Debug.Log("BulidConfigTools BulidGameConfig Succeed!");
 
@@ -62,7 +61,6 @@ public class BulidConfigTools : MonoBehaviour
         LearningConfig.Save();
         FieldGuideConfig.Save();
 
-        GameConfig.SaveStreamingAssets();
 
         Debug.Log("BulidConfigTools BulidCommonConfig Succeed!");
 

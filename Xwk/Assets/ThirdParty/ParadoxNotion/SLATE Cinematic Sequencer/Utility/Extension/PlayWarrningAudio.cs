@@ -50,8 +50,6 @@ namespace Slate.ActionClips {
                 CutsceneSequencePlayer._CurrentCutScene.OnCutsceneResume -= CutsceneResume;
                 CutsceneSequencePlayer._CurrentCutScene.OnCutsceneResume += CutsceneResume;
                 DoPlay();
-                PauseUIMoudleMgr.Instance.mGameGoMainCityAction -= DoStop;
-                PauseUIMoudleMgr.Instance.mGameGoMainCityAction += DoStop;
             }
         }
         protected void CutsceneResume(Cutscene cutscene)
@@ -61,7 +59,6 @@ namespace Slate.ActionClips {
                 {
                     stop = true;
                     CutsceneSequencePlayer._CurrentCutScene.OnCutsceneResume -= CutsceneResume;
-                    PauseUIMoudleMgr.Instance.mGameGoMainCityAction -= DoStop;
                     DoStop();
                 }
             }

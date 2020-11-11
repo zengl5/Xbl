@@ -70,49 +70,8 @@ public class GameObjectTool : C_Singleton<GameObjectTool>
             render.sharedMaterial.mainTexture = tex;
         }
     }
-    /// <summary>
-    /// 实例化一个3D 的手
-    /// </summary>
-    /// <param name="layerName"></param>
-    /// <param name="pos"></param>
-    /// <param name="eulergel"></param>
-    /// <param name="sacle"></param>
-    /// <returns></returns>
-    public GameObject Init3Dhand(string layerName,Vector3 pos,Vector3 eulergel,Vector3 sacle)
-    {    
-        GameObject obj = ABResMgr.Instance.LoadResource<GameObject>(FirePath.Instance.public_effect_shoudianji,"publicType", true, false);
-        obj.transform.position = pos;
-        obj.transform.localScale = sacle;
-        obj.transform.eulerAngles = eulergel;
-        foreach (Transform tran in obj.GetComponentsInChildren<Transform>())
-        {
-            tran.gameObject.layer = LayerMask.NameToLayer(layerName);
-        }
-        return obj;
-    }
-
-    /// <summary>
-    /// 实例化一个3D 的手
-    /// </summary>
-    /// <param name="layerName"></param>
-    /// <param name="pos"></param>
-    /// <param name="eulergel"></param>
-    /// <param name="sacle"></param>
-    /// <returns></returns>
-    public GameObject InitLocal3Dhand(string layerName, Vector3 pos, Vector3 eulergel, Vector3 sacle,Transform parent)
-    {
-        GameObject obj = ABResMgr.Instance.LoadResource<GameObject>(FirePath.Instance.public_effect_shoudianji, "publicType", true, false);
-        obj.transform.parent = parent;
-        obj.transform.localPosition = pos;
-        obj.transform.localScale = sacle;
-        obj.transform.localEulerAngles = eulergel;
-        foreach (Transform tran in obj.GetComponentsInChildren<Transform>())
-        {
-            tran.gameObject.layer = LayerMask.NameToLayer(layerName);
-        }
-        return obj;
-    }
-
+  
+   
     /// <summary>
     /// 实例化一个3D 的手
     /// </summary>

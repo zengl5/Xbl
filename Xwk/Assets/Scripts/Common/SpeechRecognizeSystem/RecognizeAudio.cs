@@ -6,7 +6,6 @@ using UnityEngine.UI;
 using System;
 using Assets.Scripts.C_Framework;
 using DG.Tweening;
-using XWK.Common.UI_Reward;
 /// <summary>
 ///  author  van
 ///  time 2019-5-30
@@ -208,10 +207,6 @@ public class RecognizeAudio : C_MonoSingleton<RecognizeAudio>
     /// <param name="scoreCallback"></param>
     public void StartRecognizeAudioTecent(string word, System.Action<string> scoreCallback, ResultType type = ResultType.PickScore, int langType = 1, int speechType = 1, float recordDur = 3f, bool reward = false)
     {
-        if (reward)
-        {
-            RewardUIManager.Instance.PauseCountDown();
-        }
         _ResultCallback = scoreCallback;
         _ResultType = type;
         if (recordDur <= 0)
@@ -226,10 +221,6 @@ public class RecognizeAudio : C_MonoSingleton<RecognizeAudio>
         {
             StopWithStartOverTimeCheck();
         });
-        if (reward)
-        {
-            RewardUIManager.Instance.ResumeCountDown();
-        }
         return;
 #endif
        
@@ -248,7 +239,7 @@ public class RecognizeAudio : C_MonoSingleton<RecognizeAudio>
                 string answer = "1";
                 if(answer.Equals(status[0]))
                 {
-                    C_MonoSingleton<GameHelper>.GetInstance().sendTecentStartRecord(word, langType, speechType);
+
                     _IsRecording = true;
                 }
                 else
@@ -256,16 +247,11 @@ public class RecognizeAudio : C_MonoSingleton<RecognizeAudio>
                     Tips.Create("开启语音权限后，才可以继续使用噢！");
                 }
             }
-            if (reward)
-            {
-                RewardUIManager.Instance.ResumeCountDown();
-            }
 #if !UNITY_IOS
     StartRecordAction(recordDur);                   
 #endif
         });
 
-        GameHelper.Instance.SendRecordStatus();
         _AnswerWord = word;
 #if UNITY_IOS
     StartRecordAction(recordDur);                   
@@ -386,7 +372,6 @@ public class RecognizeAudio : C_MonoSingleton<RecognizeAudio>
 
         _IsRecording = false;
 
-        C_MonoSingleton<GameHelper>.GetInstance().SendEndRecord();
     }
      public void ClearEvent()
     {
@@ -421,7 +406,6 @@ public class RecognizeAudio : C_MonoSingleton<RecognizeAudio>
         ClearEvent();
         if (_IsRecording)
         {
-            C_MonoSingleton<GameHelper>.GetInstance().SendEndRecord();
         }
         _IsRecording = false;
     }

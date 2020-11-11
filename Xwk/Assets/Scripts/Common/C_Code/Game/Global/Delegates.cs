@@ -5,5 +5,5 @@ using UnityEngine;
 
 public static class Delegates
 {
-    public static UI_MainCity c_UI_MainCity = null;
+
 }

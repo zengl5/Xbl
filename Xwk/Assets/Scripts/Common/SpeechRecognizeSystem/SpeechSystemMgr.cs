@@ -38,11 +38,8 @@ public class SpeechSystemMgr:C_MonoSingleton<SpeechSystemMgr>
         }
 
         RecognizeAudio.Instance.StartRecognizeAudioTecent(word, (score)=> {
-            PauseUIMoudleMgr.Instance.mGameGoMainCityAction -= StopRecognize;
             RecongizeScoreOver(score);
         }, type,1,1,3,true);
-        PauseUIMoudleMgr.Instance.mGameGoMainCityAction -= StopRecognize;
-        PauseUIMoudleMgr.Instance.mGameGoMainCityAction += StopRecognize;
     } 
     /// </summary>
     /// <param name="word">识别的文字</param>
@@ -84,13 +81,10 @@ public class SpeechSystemMgr:C_MonoSingleton<SpeechSystemMgr>
         if (showUI)
             CreataUICover();
         MicPhoneSinglton.Instance.StartVolumeRecognition(VolumeRecognitionOver,null,true);
-        PauseUIMoudleMgr.Instance.mGameGoMainCityAction -= StopVolumeRecongition;
-        PauseUIMoudleMgr.Instance.mGameGoMainCityAction += StopVolumeRecongition;
     }
     public void VolumeRecognitionOver(bool reslut)
     {
         ClearUI();
-        PauseUIMoudleMgr.Instance.mGameGoMainCityAction -= StopVolumeRecongition;
         if (_VolumeCallback != null)
         {
             _VolumeCallback(reslut);
@@ -100,7 +94,6 @@ public class SpeechSystemMgr:C_MonoSingleton<SpeechSystemMgr>
     }
     public void StopVolumeRecongition()
     {
-        PauseUIMoudleMgr.Instance.mGameGoMainCityAction -= StopVolumeRecongition;
         ClearUI();
         _VolumeCallback = null;
         MicPhoneSinglton.Instance.StopVolumeRecongition();
@@ -117,8 +110,6 @@ public class SpeechSystemMgr:C_MonoSingleton<SpeechSystemMgr>
         _AudioVoumle = AudioManager.Instance.GetPlayerSoundVolume();
         AudioManager.Instance.SetPlayerSoundVolume(2.0f);
         MicPhoneSinglton.Instance.StartRunTimeToModefiedTone(pitch, DoneScore, _PlayOverCallback);
-        PauseUIMoudleMgr.Instance.mGameGoMainCityAction -= Stop;
-        PauseUIMoudleMgr.Instance.mGameGoMainCityAction += Stop;
     }
    
     private  void DoneScore(bool pass,float rate)
@@ -210,7 +201,6 @@ public class SpeechSystemMgr:C_MonoSingleton<SpeechSystemMgr>
 
         _PlayOverCallback = null;
         _RecordOverCallback = null;
-        PauseUIMoudleMgr.Instance.mGameGoMainCityAction -= Stop;
         StopAllCoroutines();
 
         ClearUI();

@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Slate
 {
-    [CustomEditor(typeof(PlayClick))]
     public class PlayClickInspector : Editor
     {
 
